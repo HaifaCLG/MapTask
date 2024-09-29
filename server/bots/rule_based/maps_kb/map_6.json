@@ -1,0 +1,153 @@
+{
+	"absolute": {
+		"bicycle": {
+			"r": 8,
+			"c": 7,
+			"next_direction": [
+              "start by going directly north to the car, stop when the car is to your right",
+				["from the bicycle go up", "go past the roof of the red car"],
+				["go north (up) on the left side of the road", "bypass the red car from its left side"]
+            ],
+			"clarification": [
+              ["go up towards the car and stop next to it", "it should be to your right"],
+				["go up", "turn right when you passed the car"],
+				["continue up on the trail", "keep the car to your right", "turn right just after the car"]
+            ]
+		},
+		"car": {
+			"r": 3,
+			"c": 8,
+			"next_direction": [
+				["keep going east to the kid, do it in straight lines:",
+					"few steps east then south then east again"],
+				["from the car proceed east (right) near the upper edge of the map",
+					"go down (south) just in the middle between the car and the child with the baker's hat",
+					"go east (right) toward the child's feet"],
+				["from the car's lamps count two trees in the row and turn right",
+					"go down (south) and cross two rows of trees",
+					"turn left (east) and move towards the feet of the child"
+				]
+			],
+			"clarification": [
+              "go right towards the kid, in straight lines fashion: right, down and right again",
+				["make a stair like shape on the map between the car's lamps to the child's feet",
+					"move east, then move south and then move east"
+				],
+				["go right-down-right in straight lines","go to the child's feet"],
+				"make a stair-like maneuver between the car's front and the kid's feet"
+			]
+		},
+		"kid": {
+			"r": 4,
+			"c": 16,
+			"next_direction": [
+              "take a few steps east to the worker, stop above him",
+				["proceed right (east)",
+					"go above the construction-worker's helmet"],
+					"continue east (right) toward the worker with the eye glasses and the helmet's head"
+			],
+			"clarification": [
+              ["go right towards the worker", "and stop near the worker's head - at the edge of the map"],
+				["continue right (east)",
+					"stop just before the map's right edge",
+					"you should pass above the person's head"],
+					"move above the yellow hat of the worker with the papers"
+			]
+		},
+      "worker": {
+			"r": 8,
+			"c": 22,
+			"next_direction": [
+              ["keep going south to the wine, do it in straight lines:",
+				  "few steps south, west and south again"],
+				["go down inbetween the worker's body and the map's edge",
+					"just after passing his feet, turn right (east)",
+				"stop when you are standing north-east (right and above) the glass of wine"],
+				["move around the worker in straight lines (top to bottom, from his right side)",
+					"continue west (left) and stop just before going over the glass of wine"]
+			],
+			"clarification": [
+              "go down towards the glass of wine, in straight lines fashion: down and left and down again",
+				["go from te yellow hat down",
+					"below the worker's feet make a 90 degrees angle turn to the right",
+					"make another 90 degrees angle turn to the left just in front of the glass"
+				],
+				["make a ] shape maneuver around the worker",
+					"continue west",
+				"make a box maneuver under the glass of wine"]
+			]
+		},
+		"wine": {
+			"r": 14,
+			"c": 16,
+			"next_direction": [
+				["take short steps in the direction of the crab:",
+					"few to the left, then up"],
+				["keep going under the glass of wine",
+					"turn right and go up (north) just in the middle between the wine and the crab"],
+				["complete a u-shape under the wine",
+					"make it in straight lines"]
+			],
+			"clarification": [
+              "head to the crab in straight lines: first start left then go up",
+				["go down on the eastern side of the wine",
+					"go west (left) under the glass of wine",
+						"go back up on thw western side of the glass"],
+				"make your way below the glass of wine and back up just before the crab"
+			]
+		},
+		"crab": {
+			"r": 14,
+			"c": 11,
+			"next_direction": [
+              ["keep going west to the doctor, do it in straight lines:",
+				  "few steps west, south and west again"],
+				["make an inverse u-shape turn above the crab",
+					"move in straight lines",
+				"continue towards the doctor's feet"],
+				"after circling the crab (from above) continue west (left) to the doctor's feet"
+			],
+			"clarification": [
+              "go down towards the doctor, in straight lines fashion: left and down and left again",
+				"say bye-bye to the crab and continue west (left) below the doctor's feet",
+				["keep going west (left) in a straight line under the doctor's ",
+					"get to the lower left corner of the map and turn right (heading upwards)"]
+			]
+		},
+		"doctor": {
+			"r": 14,
+			"c": 4,
+			"next_direction": [
+				["last stop is the fireman - go west of the doctor near the edge of the map",
+					"then north in a straight line"],
+				"after reaching the lower left corner, go straight up towards the fireman",
+				["keep going west to the end of the map ",
+					"from there make a 90 degrees angle turn to the right",
+					"go straight up to the fireman"]
+			],
+			"clarification": [
+				"the final objective is to reach the fireman - head up in a straight line",
+				["follow a path which is parallel to the lower-left corner of the map",
+					"approach the fireman from below"],
+				["from the doctor's feet continue west (left) to the end of the map",
+					"there turn right and move to the fireman"]
+			]
+		},
+      "fireman": {
+			"r": 6,
+			"c": 2,
+			"next_direction": [
+				"keep going north to the fireman, almost there!",
+				"the fireman is the last stop for this trip!",
+				"go to the fireman's feet"
+			],
+			"clarification": [
+				"keep going up to the fireman, almost there!",
+				"this man with the hose is our final goal!",
+				"make your way up and touch the fireman's feet"
+			]
+		}
+	},
+
+	"outside_path": []
+}

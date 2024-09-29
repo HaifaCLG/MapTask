@@ -1,0 +1,106 @@
+{
+	"absolute": {
+		"tent": {
+			"r": 3,
+			"c": 9,
+			"next_direction": [
+				"go south a few steps towards the dog",
+				"start from the vigvam (the tent) on the upper side of the map and after that go down (south) between the wall made of stone and the dog",
+				"your starting point should be the tent and then proceed down around the dog (keep it to your left)"
+            ],
+			"clarification": [
+				"start by going down towards the dog, while the rocks are by your side",
+				"proceed down (south) between the dog and the wall",
+				"the first segment is from the tent around the dog"
+            ]
+		},
+		"dog": {
+			"r": 6,
+			"c": 8,
+			"next_direction": [
+				"take a few steps south until you reach the barbecue",
+				"proceed to the east (right) side of the map, between the barbeque and the dog and stand right in front of the camp fire",
+				"keep the dog to your left and go towards the camp fire"
+			],
+			"clarification": [
+				"there is a barbecue below the dog, its on green grass a bit below the path. head there",
+				"go above the barbecue and continue towards the camp fire",
+				"continue on the paved path between and dog and the barbecue until you stand in front of the camp fire"
+			]
+		},
+		"barbecue": {
+			"r": 8,
+			"c": 11,
+			"next_direction": [
+				"head north east diagonally towards the fire",
+				"proceed north-east, above the camp fire",
+				"take a few steps north-east and go between the dog and the camp fire"
+			],
+			"clarification": [
+				"cross the the path in a diagonal manner - up and right. you should be in between the dog and the fire",
+				"continue above the fire (when the dog is to your left)",
+				"make half a circle above the fire"
+			]
+		},
+		"fire": {
+			"r": 7,
+			"c": 13,
+			"next_direction": [
+				"pass the fire from above it and head east towards the car, but don't actually reach the car",
+				"go between the fire and the mushroom towards the car",
+				"go around the camp fire from above, and proceed toward the car"
+			],
+			"clarification": [
+				"go between in the fire and the mushroom in the direction of the car then stop when you are close to the car",
+				"approach the car (but don't touch it)",
+				"go between the fire and the mushrooms and approach the car"
+			]
+		},
+		"car": {
+			"r": 9,
+			"c": 19,
+			"next_direction": [
+				"continue on the path, and head south towards the telescope",
+				"from the car, go back on the path and turn left (down)",
+				"go back (west-left) from the car and turn left on the crossroad"
+			],
+			"clarification": [
+				"keep going on the path, head down until you are near a telescope",
+				"go down the path to the telescope's main lens",
+				"from the paths' crossroad near the camp fire continue left (down) toward the telescope"
+			]
+		},
+		"telescope": {
+			"r": 12,
+			"c": 18,
+			"next_direction": [
+				"keep going south - take the shortcut between the telescope and green bush",
+				"go south of the telescope and walk over the path west towards the house",
+				"make a shortcut on the grass (off the path) near the telescope",
+				"make your way between the telescope's tripod the the bush next to it toward the path at the lower segment of the map"
+			],
+			"clarification": [
+				"don't surround the whole path, but rather get off the path, on the green grass between the telescope and a bush",
+				["first go below the telescope until you are on the path", "then go left to the house"],
+				["circle the telescope (it should be to your right)", "go west (left) on the lower segment on the map"],
+				["proceed toward the path segment on the south (lower) side of the map", "then go on the path when the telescope is to your right"]
+			]
+		},
+		"house": {
+			"r": 13,
+			"c": 9,
+			"next_direction": [
+				"keep going west to the house and you are done!",
+				"continue on the path and approach the house balcony",
+				"make a few steps on the path and leave it toward the house"
+			],
+			"clarification": [
+				"the final objective is to reach the house - you should go left",
+				"the house is the final destination on the map",
+				"approach the house from its balcony"
+			]
+		}
+	},
+
+	"outside_path": ["mushroom", "traveler", "man", "book"]
+}

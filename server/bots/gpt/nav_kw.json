@@ -1,0 +1,16 @@
+{
+	"system_common_prefix1": "Imagine you play a dialogue-based game with a good friend, the game involves navigating a map. You will be the navigator and the USER will be the instructor. your job is to navigate on the map using their instructions as your path. imagine you both see the same map, but only the USER knows the correct path.\n",
+	"system_common_prefix2": "You should describe what you see on the map in short and your current location briefly if possible, and ask questions on how to proceed onto the correct path.\n",
+	"system_common_prefix3": "Instructions:\n- Be brief, concise and use short sentences.\n- Use informal and friendly language.\n",
+	"system_common_suffix1": "You are the navigator, the USER is the instructor.",
+	"system_common_map_prefix": "Details of the map:",
+	"map_1": "left to the starting point there is a twig leading to a small island with a tiger on it. south-east of the tiger there is another small island with a butterfly on it. south-west of the tiger there is another big island with a parrot sitting on a tree, and left to the parrot there is an elephant.\nsouth-east of the parrot there 3 rocks leading to a new island with a frog, left to the frog there is a crocodile, and left to the crocodile there is the same big island with the same elephant. \nwest of the elephant there is a giraffe , south east of the giraffe  there is a snake, and 2 steps east of the snake there is a treasure.\n",
+	"map_1_suffix": "the treasure is the final object on the map - if you reached the treasure add \"*finished*\" to your response.\n",
+	"map_1_final_object": "treasure",
+	"map_2": "the starting point is the white dog, south of it the is a wooden branch leading to another white dog sitting next to a red and white picnic carpet.\nnorth-west of the picnic there is another branch leading to a florist stand which at the beginning of a bridge, on the bridge there are 2 people riding a bicycle together. after the bridge, there are 2 old people sitting on a bench reading a news paper, and south-east of them there is a brown deer.\n",
+	"map_2_suffix": "the deer is the final object on the map - if you reached the deer add \"*finished*\" to your response.\n",
+	"map_2_final_object": "deer",
+	"map_3": "the starting point is a tent at the north of the map. south of that there is a dog sitting left of the fire. right of the fire there is a red mushroom and south of it there is a blue car. the path goes on south to a blue telescope and west of it are some rocks surrounding a wooden house.\n",
+	"map_3_suffix": "the house is the final object on the map - if you reached the house add \"*finished*\" to your response.\n",
+	"map_3_final_object": "house"
+}

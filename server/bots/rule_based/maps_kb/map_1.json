@@ -1,0 +1,233 @@
+{
+	"absolute": {
+		"start": {
+			"r": 2,
+			"c": 23,
+			"next_direction": [
+				"go left towards the leopard",
+				"go left on the branches on the water",
+				"go across the bridge towards the leopard",
+				"follow the bridge and go towards the leopard",
+				"go south west over the branch",
+				"go to the \"leopard\" island",
+				"cross the sea over the stick to the island on the left"
+			],
+			"clarification": [
+				"you should navigate using keyboard/ mouse towards the leopard",
+				"you should navigate using keyboard/ mouse towards the leopard, go on the branches",
+				"you should navigate using keyboard/ mouse towards the leopard, go on the branches",
+				"use the keyboard/mouse to go to the leopard",
+				"use the up, down, left, right on the keyboard or the mouse",
+				"move down and left over the map with the mouse or keyboard",
+				"press the keyboard's arrows to move or roll the mouse towards the island with the leopard on it"
+			]
+		},
+		"leopard": {
+			"r": 2,
+			"c": 17,
+			"synonym": ["tiger", "cat", "cub", "cougar", "jaguar", "lynx", "bobcat", "wildcat", "kitten"],
+			"next_direction": [
+				"pass the branch below the leopard, to the left",
+				"pass the branch to the left",
+				"cross the bridge towards the parrot's island",
+				"cross the water over the wooden stick towards the parrot",
+				"go south west over the bridge"
+			],
+			"clarification": [
+				"there is another branch left to the leopard, pass it towards the parrot",
+				"there is another branch left to the leopard, pass it towards the parrot",
+				"the path continues over the stick which points left and down",
+				"continue more or less on the same direction towards the tree where the parrot is sitting",
+				["go over the stick which points to the left", "from the leopard's island to the parrot and elephant's island"]
+			]
+		},
+		"parrot": {
+			"r": 5,
+			"c": 11,
+			"synonym": ["bird", "imitator", "psittacine"],
+			"next_direction": [
+				"go around the parrot above it, then head to the gray rocks below the parrot",
+				["surround the parrot over it,", "then continue east over the gray rocks"],
+				"circle the parrot counter-clockwise until you reach the rocks before the frog's island",
+				["go above the parrot,", "then between the parrot and the elephant", "and then below the parrot (east)"],
+				"continue around the parrot until you are below the parrot, heading eastwards"
+			],
+			"clarification": [
+				"you need to surround the parrot, start above it, then between the parrot and the elephant, and then below it, towards the 2 gray rocks",
+				"you need to surround the parrot, start above it, then between the parrot and the elephant, and then below it, towards the 2 gray rocks",
+				["circle th parrot on the island and remain in the right half of the island", "then exit the island through the rock's bridge towards the frog's island"],
+				["go around the tree where the parrot is standing on", "then go on the bridge made of rocks (two gray rocks and one black rock)"],
+				["you should go above the parrot and then down just between the parrot (on your left) and the elephant (on your right)", "and then continue east to the gray rocks"]
+			]
+		},
+		"3 rocks": {
+			"r": 8,
+			"c": 13,
+			"synonym": ["three rocks"],
+			"next_direction": [
+				"step over the 3 rocks and head to the frog",
+				["go over the three rocks that are east of the parrot,", "and then continue towards the frog"],
+				"go over the rocks and to the island of the frog",
+				"go to the island on the south",
+				"proceed south east toward the frog"
+			],
+			"clarification": [
+				"once you finished surrounding the parrot, you should be below it. now to right of it are 3 rocks, go over those rock to the frog",
+				"once you finished surrounding the parrot, you should be below it. now to right of it are 3 rocks, go over those rock to the frog",
+				"after you circled the parrot, step on the bridge made from the stones over the water to the frog island",
+				"leave the parrot's island and march toward the frog's island",
+				"cross the bridge to the south west island on the map"
+			]
+		},
+		"frog": {
+			"r": 11,
+			"c": 19,
+			"synonym": ["toad", "bullfrog", "caecilian", "croaker", "polliwog"],
+			"next_direction": [
+				"head very closely to the frog and then turn back and head west to the crocodile",
+				"do a slight u-turn near the frog, and keep west towards the crocodile",
+				["go on the grass of the frog's island until you are right below the frog", "then go back on the grass (don't touch the trees)", "step on the alligator"],
+				["from the rocks continue right and down to the center of the island", "after that go west (back) and exit the island on the aligator"],
+				["walk to the center of the frog's island,", "and then go west (left) to the aligator bridge and cross over it"]
+			],
+			"clarification": [
+				"you should almost touch the frog, but below it, then do a slight u-turn and continue left of it, towards the crocodile",
+				"you should almost touch the frog, but below it, then do a slight u-turn and continue left of it, towards the crocodile",
+				["move the location marker under the frog", "and then return toward the crocodile's tail"],
+				["navigate to the center of the island", "right below the frog and continue from there to the aligator"],
+				["move to the spot between the two trees on the island", "then go towards the aligator"]
+			]
+		},
+		"crocodile": {
+			"r": 12,
+			"c": 12,
+			"synonym": ["alligator", "antelope", "snakeskin", "seal", "lambskin"],
+			"next_direction": [
+				"continue on the crocodile to the rock below the elephant",
+				"go over the crocodile towards the elephant, then on the rocks",
+				["go on the aligator bridge to the big black rock under the elephant", "from there to the bridge between the elephant and the giraffe"],
+				"cross the crocodile back to the parrot-elephant island",
+				"walk on the crocodile's back to the big black rock"
+			],
+			"clarification": [
+				"you should walk over the crocodile itself, and then on the black rock left to it",
+				"you should walk over the crocodile itself, and then on the black rock left to it",
+				"cross the water over the crocodile's back",
+				["walk on the crocodile from its tail to its mouth", "beware of the teeth :)"],
+				"leave the frog's island back to the elephant-parrot island over the crocodile"
+			]
+		},
+		"big rock": {
+			"r": 11,
+			"c": 8,
+			"synonym": ["black rock", "rock"],
+			"next_direction": [
+				"go over the big rock, the one that is on the crocodile's head. continue west until you see 2 grays rocks",
+				"there is a big rock next to the crocodile's head, step on it and continue left",
+				"from the big black rock of the crocodile move to the pair of gray rocks next to the giraffe",
+				"go from the mouth of the aligator and move a little up and left to the left exit of the parrot-elephant island",
+				"from the bottom of the parrot-elephant island (the crocodile's mouth) move to the bridge towards the giraffe island"
+			],
+			"clarification": [
+				"you should walk over the crocodile itself, and then on the black rock left to it",
+				"you should walk over the crocodile itself, and then on the black rock left to it",
+				"cross the aligator from tail to mouth",
+				"cross the crocodile and stand on the big black rock that it trys to swallow",
+				"walk on the crocodile towards the big black rock next to its head"
+			]
+		},
+		"elephant": {
+			"r": 6,
+			"c": 7,
+			"synonym": ["boar", "mammoth", "mastodon", "tusker"],
+			"next_direction": [
+				"if you didn't pass near the frog yet, head over the gray rocks towards it",
+				"if you did pass near the frog already and the crocodile, keep west towards the giraffe, over the gray rocks",
+				["if you already visited the frog's island - continue to the giraffe's island", "otherwise - move to the frog's island"],
+				["if it is the first time near the elephant - continue to the frog's island", "otherwise - continue to the giraffe"],
+				["if you came from the leopard - continue towards the frog", "if you came from the aligator - continue towards the giraffe"]
+			],
+			"clarification": [
+				"i'm not sure where you came from as i don't see you, but next you should continue on the 2 gray rocks towards the frog",
+				"i'm not sure where you came from as i don't see you, but next you should continue on the 2 gray rocks towards the giraffe",
+				"i'm not sure where you came from since i don't see you, but next you should continue towards the frog",
+				"i'm not sure where you came from since i don't see you, but next you should continue towards the giraffe",
+				["if you have already passed on the crocodile on your path - continue to the giraffe", "if not - go to the frog "]
+			]
+		},
+		"2 gray rocks": {
+			"r": 10,
+			"c": 5,
+			"synonym": ["2 rocks", "two rocks"],
+			"next_direction": [
+				"continue on the crocodile to the rock below the elephant",
+				"go over the crocodile towards the elephant, then on the rocks",
+				"continue on the aligator to the rock below the elephant",
+				"go over the aligator towards the elephant, then on the rocks",
+				"cross the aligator towards the the feet of the elephant"
+			],
+			"clarification": [
+				"you should walk over the crocodile itself, and then on the black rock left to it",
+				"you should walk over the crocodile itself, and then on the black rock left to it",
+				["you should cross over the back of the crocodile", "towards the big black rock it seems to eat"],
+				["you should walk over the crocodile's spine", "then proceed towards the big black rock"],
+				["don't get to close to the elephant", "proceed toward the giraffe over the bridge of rocks"]
+			]
+		},
+		"giraffe": {
+			"r": 8,
+			"c": 1,
+			"synonym": ["buffalo", "camelopard", "camel", "giraph"],
+			"next_direction": [
+				"head south east from the giraffe, towards the snake",
+				"below the giraffe, continue on the branches right",
+				["go down from the giraffe", "cross the wooden stick to the snake"],
+				"from the giraffe go south towards the branch which ends near the python snake",
+				"say bye bye to the giraffe and proceed carefully over the branch towards the snake"
+			],
+			"clarification": [
+				"go below the giraffe, and pass to the island where the snake is, go on top of the snake",
+				"go below the giraffe, and pass to the island where the snake is, go on top of the snake",
+				"move south (down) towards the snake",
+				"go towards the snake over the stick between the islands",
+				"proceed toward the yellow-purple snake"
+			]
+		},
+		"snake": {
+			"synonym": ["viper", "basilisk", "dragon", "serpent", "python", "cobra"],
+			"r": 15,
+			"c": 2,
+			"next_direction": [
+				"continue east to the treasure!",
+				"just go to the treasure box!",
+				"the treasure is right next to you - go to it!",
+				"move the cursor on the map to the box of treasure!"
+			],
+			"clarification": [
+				"keep going on the snake in the right direction, then to the treasure!, almost there!",
+				"keep right, until you reach the treasure",
+				"proceed toward the open box",
+				"you're almost there... continue toward the treasure!"
+			]
+		},
+		"treasure": {
+			"r": 16,
+			"c": 7,
+			"synonym": ["cache", "cash", "coin", "coins", "gold", "money", "prize"],
+			"next_direction": [
+				"continue towards the treasure - the last object!",
+				"it's right next to you - go to the treasure!",
+				["you are very close to the treasure!", "the goal is in the palm of our hands!"],
+				["we are almost at the end", "the treasure is the last stop of the path"]
+			],
+			"clarification": [
+				"almost there! just step on the treasure",
+				"put the cursor on the treasure",
+				"the box of treasure is very close - go to it!",
+				"just go to the treasure!"
+			]
+		}
+	},
+
+	"outside_path": ["tarantula", "butterfly"]
+}

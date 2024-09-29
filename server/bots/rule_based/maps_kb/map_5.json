@@ -1,0 +1,92 @@
+{
+	"absolute": {
+		"skull": {
+			"r": 1,
+			"c": 1,
+			"next_direction": [
+              "start by circling the skull between the big camp, in the south direction",
+				["make half a circle around the skull", "pass near the tent and head south (down)"],
+				"pass between the skull and the tent"
+            ],
+			"clarification": [
+              "first surround the skull from the right side, then walk down between it and the camp",
+				["move east (right) and turn right just after the skull", "move south (down) near the tent"],
+				"go down towards the guitar and the cactus"
+            ]
+		},
+		"guitar": {
+			"r": 10,
+			"c": 8,
+			"next_direction": [
+				"go between the guitar and the cactus, head north east towards the boots",
+				["from the point just between", "the cactus, the guitar, the fire and the well", "continue north-east towards the boots found at the north-east end of the map"],
+				["make half a circle around (below) the guitar and the fire", "make your way up north to the other (east) side of the tent", "keep going towards the boots"]
+			],
+			"clarification": [
+				"first pass the between the guitar and the cactus, head diagonally - up and right towards the boots",
+				["complete a big half-circle around the guitar and the fire, from one side of the tent to the other", "go towards the boots"],
+				["from the cactus near the guitar move right (east)", "go up (north) after the fire", "go up to the side of the tent", "advance towards the boots"]
+			]
+		},
+		"boots": {
+			"r": 5,
+			"c": 19,
+			"next_direction": [
+				"surround the boots in this manner: start left of it, then above it, then go down",
+				["go above the boots", "go down near the right edge of the map towards the cactus"],
+				["circle the boots from their upper side", "go south (down) toward the cactus in parallel to the edge of the map"]
+			],
+			"clarification": [
+				"surround the boots in this manner: start left of it, then above it, then go down",
+				["keep the boots to your right", "make half a circle around the", "go to the nearest cactus' top"],
+				["move around (above) the boots", "continue down towards the nearest cactus"]
+			]
+		},
+		"cactus": {
+			"r": 7,
+			"c": 22,
+			"next_direction": [
+				"if you didn't pass the boots yet, head over there",
+				"if you did pass the boots already, keep south towards the horse",
+				"if you didn't circle the boots - do it now!",
+				["in case you visited the boots:", "make half a circle (counter-clockwise) around the cactus", "continue towards the horse's back"]
+			],
+			"clarification": [
+				"i'm not sure where you came from as i don't see you, but next you should continue to the boots",
+				"i'm not sure where you came from as i don't see you, but next you should continue horse",
+				["since i cant see you, i'm don't know where you came from", "circle the boots clock-wise"],
+				["due to the fact that i do not see your position on the map, i don't know what your path actually was", "go around the cactus (from the west)", "approach the horse"]
+			]
+		},
+		"horse": {
+			"r": 13,
+			"c": 18,
+			"next_direction": [
+				"go west towards the well, don't touch the small cactus on the way there",
+				["move near the horse's neck", "continue west", "pass above the small single cactus", "go to the base of the well"],
+				["make your way on the horse's neck", "just above the horse's head go west (left)", "circle the small single cactus from above", "move to the well's base"]
+			],
+			"clarification": [
+				"go left towards the well, avoid touching the small cactus on the way",
+				["from the horse go to the base of the well", "don't touch the small single cactus on your way", "make your way above it"],
+				["proceed from the horse to the well", "bypass the small cactus on the map from above"]
+			]
+		},
+		"well": {
+			"r": 16,
+			"c": 9,
+			"next_direction": [
+				"keeping going west to the well",
+				"jump into the well!",
+				"the finish line is at the well!"
+			],
+			"clarification": [
+				"the final objective is to reach the well",
+				"the well is the end of the path at this game",
+				"step into the well"
+			]
+		}
+	},
+
+	"outside_path": ["encampment", "camp"]
+}

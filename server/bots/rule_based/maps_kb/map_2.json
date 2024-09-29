@@ -1,0 +1,132 @@
+{
+	"absolute": {
+		"dog": {
+			"r": 2,
+			"c": 20,
+			"next_direction": [
+				"go a few steps to the left and back to the branch near the dog",
+				"go a few steps to the left and do a u-turn and go on the branch, below the dog",
+				["start from the dog at the top-right corner of the map", "then go west (left) just below the bench", "make a few steps on the trail until you reach the flower stand and from there return east (right) to until you reach the log bridge (near the yellow fish)"],
+				["begin at the Dalmatian dog at the upper-right corner of the map", "go to the flower stand", "return towards the log over the gorge (next to the dog of the start)"],
+				["let's start at the upper dog", "go from it left (just under the bench) to the path", "after a few steps on the path south", "return back to the starting dog", "cross the river south over the log"]
+            ],
+			"clarification": [
+				"start by going left a few steps away from the dog, then return to the branch and walk over it, below the dog.",
+				"start by going left a few steps away from the dog, then return to the branch and walk over it, below the dog.",
+				["go left until you stand on the road", "then go down a little", "go back right to the log near the dog at the start"],
+				["go left while you are still near the bench", "then go down while you are still near the flower stand", "then go right to the log bridge crossing the gorge"],
+				["go straight left, walk a few steps down on the road (stop near the first red box)", "then go back to the starting dog"]
+            ]
+		},
+		"branch": {
+			"r": 3,
+			"c": 19,
+			"next_direction": [
+				"walk on the branch, and head south to the picnic",
+				"south to the first brown branch there is a picnic, head there",
+				"cross the gorge over the log and head straight down to the picnic dog",
+				"walk through the log bridge and continue south to the dog and the basket at the lower-right corner of the map",
+				"step carefully on the log and head south towards the dog sitting next to the picnic blanket"
+			],
+			"clarification": [
+				"pass the first brown branch near the dog, and head down to the picnic",
+				"pass the first brown branch near the dog, and head down to the picnic",
+				"continue south to the cute Dalmatian dog on the lower right corner",
+				"do you see the dog sitting near the basket and the blanket? Go to it",
+				"continue down to the dog near the blanket"
+			]
+		},
+		"picnic": {
+			"r": 13,
+			"c": 19,
+			"next_direction": [
+				"walk over the picnic blanket and head to the 2nd branch to the north",
+				"north to the picnic blanket there is another branch, walk over it to the north",
+				["step on the checked blanket", "cross the gorge again on the log near its left pointing corner"],
+				"walk on the blanket from the right corner to the left corner and continue up on the log over the gorge",
+				"from the blanket continue to cross the river (heading north) over the log"
+			],
+			"clarification": [
+				"next to the picnic blanket there is another branch or log, walk over it and pass the creek",
+				"next to the picnic blanket there is another branch or log, walk over it and pass the gorge",
+				"leave the blanket and go up over the log to the big bush",
+				["cross the log and approach the big bush near the flower stand"],
+				"go over the log north (up) and approach the big bush"
+			]
+		},
+		"bush": {
+			"r": 10,
+			"c": 13,
+			"next_direction": [
+				"walk around the bush and head west towards the bridge",
+				"there are 2 bushes, big and small, walk between them and head west towards the bridge",
+				["circle the big bush counter-clockwise", "cross the bridge along with the bicycle"],
+				["go around the bush (keep it to your left)", "continue over the big bridge (with the bike)"],
+				["pass between the two bushes (there is a smaller bush to the right)", "go west (left) and cross the bridge"]
+			],
+			"clarification": [
+				"after the log, in the north part of the creek there are 2 bushes, walk between them, and then head left towards the bridge",
+				"after the log, in the north part of the creek there are 2 bushes, walk between them, and then head left towards the bridge",
+				"keep going around the big bush (counter clockwise) and walk along the big bridge with the bicycle",
+				"turn right after leaving the log and go around the big bush. Then cross the bridge heading west",
+				["circle the big bush by going east (right) - north (up) - west (left)", "then keep going on the track over the big bridge"]
+			]
+		},
+		"bridge": {
+			"r": 7,
+			"c": 12,
+			"next_direction": [
+				"pass the bridge with the people on the bicycle, head west towards the elderly that read a book",
+				"keep going ont the bridge with people on the bicycle, head towards the elderly that read a book",
+				["after the bridge, at the vegetable stall turn left (down)", "keep going when the reading people are at your right and the log on your left side"],
+				"turn left at the end of the bridge and continue south when the log is to your left and the reading people are to your right",
+				["at the vegetable stall leave the road and go south", "then walk between the bench with the reading people and the log"]
+			],
+			"clarification": [
+				"on the bridge there are 2 people that ride a bicycle - walk over the bridge to left until you reach the elderly man",
+				"on the bridge there are 2 people that ride a bicycle - walk over the bridge to left until you reach the elderly man",
+				"do you see the reading people? go south next to them",
+				"continue down south past the two elderly couple reading",
+				"go south (down) on the map between the elderly people and the log"
+			]
+		},
+		"people": {
+			"r": 7,
+			"c": 4,
+			"next_direction": [
+				"go between the elderly man and the brown log, until the gap between the log and the bush",
+				"go south of the elderly man, the brown log should be on your right side, then stop next to the bush",
+				["leave the paved road and turn left", "pass between the reading people and the The branch lying on the grass"],
+				"continue between the bench with the reading fellows and the lying log",
+				"go between the old fellows who are reading the newspaper and the log"
+			],
+			"clarification": [
+				"next to the elderly man there is a brown log, pass between them until you are in the gap between the log and a bush",
+				"next to the elderly man there is a brown log, pass between them until you are in the gap between the log and a bush",
+				"turn left at the end of the log just before you reach the bush",
+				"you should turn left just between the lower tip of the log and the bush standing next to it",
+				["next to the end of the log there is a bush", "do you see it?", "turn left (east) and pass right between the log and the bush"]
+			]
+		},
+		"deer": {
+			"r": 13,
+			"c": 3,
+			"next_direction": [
+				"after the gap go slightly north east to the head of the deer and you are done!",
+				"after the gap go slightly north east towards the head of the deer and you are done!",
+				"from the lower tip of the log go north-east (up-right) and proceed toward the head of Bambi",
+				"go under the lower end of the log and go to the head of Bambi",
+				["turn left (east) at the end of the log", "approach the deer's head right between its ears"]
+			],
+			"clarification": [
+				"the final objective is to reach the deer's head - you should go diagonally",
+				"the final objective is to reach the deer's head - you should go diagonally",
+				["from the gap between the log's end the bush turn north-east (up-right side of the map)", "approach the deer's head from above"],
+				"go to the deer's head",
+				"approach the deer's head just between its ears"
+			]
+		}
+	},
+
+	"outside_path": ["fish", "cart", "wagon", "stand", "creek", "water", "river", "stream"]
+}
