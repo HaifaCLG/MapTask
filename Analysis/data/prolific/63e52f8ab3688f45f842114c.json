@@ -1,0 +1,1647 @@
+{
+	"games_data": [
+		{
+			"survey": [
+				{
+					"answer": 76,
+					"question": "How much did you enjoy the task?"
+				},
+				{
+					"answer": 100,
+					"question": "How difficult was it to communicate with your partner?"
+				},
+				{
+					"answer": 57,
+					"question": "How successful do you think you were at completing the task?"
+				},
+				{
+					"answer": 32,
+					"question": "How difficult was it to understand your partner's instructions?"
+				},
+				{
+					"answer": 50,
+					"question": "How likely is your partner to be a fluent speaker of English?"
+				},
+				{
+					"answer": 50,
+					"question": "How likely is your partner to be a fluent speaker of Spanish?"
+				},
+				{
+					"answer": 50,
+					"question": "How likely do you think it is that your partner is bilingual?"
+				},
+				{
+					"answer": 88,
+					"question": "Please rate your partner according to the following attributes: friendly"
+				},
+				{
+					"answer": 69,
+					"question": "Please rate your partner according to the following attributes: smart"
+				},
+				{
+					"answer": 67,
+					"question": "Please rate your partner according to the following attributes: collaborative"
+				},
+				{
+					"answer": 78,
+					"question": "Please rate your partner according to the following attributes: honest"
+				},
+				{
+					"answer": 50,
+					"question": "Please rate your partner according to the following attributes: funny"
+				},
+				{
+					"answer": 100,
+					"question": "How likely do you think it was that you were talking to a chatbot rather than a human?"
+				},
+				{
+					"answer": 50,
+					"question": "If you were communicating with a chat bot, would you want them to communicate in both English and Spanish?"
+				}
+			],
+			"game_time": 384,
+			"config": {
+				"game_role": "instructor",
+				"map_index": 0,
+				"guid": "d17acdeb-8267-421a-afc9-70f1ca318ca5"
+			},
+			"chat": [
+				{
+					"id": "navigator",
+					"msg": "hi there, empezamos?",
+					"timestamp": 1696504831643
+				},
+				{
+					"msg": "Yes",
+					"id": "instructor",
+					"timestamp": 1696504860231,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "cool, i'm at the starting point",
+					"id": "navigator",
+					"timestamp": 1696504863636
+				},
+				{
+					"msg": "there's a twig leading to a small island with a tiger to the left of me. where to next?",
+					"id": "navigator",
+					"timestamp": 1696504863636
+				},
+				{
+					"msg": "From the treasure chest, pass through the pink snake and circle to the right of the giraffe.",
+					"id": "instructor",
+					"timestamp": 1696504916373,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "hmm, i'm at the start and the treasure with the snake and the giraffe seem to be far off",
+					"id": "navigator",
+					"timestamp": 1696504924250
+				},
+				{
+					"msg": "would you mind guiding me through the initial steps?",
+					"id": "navigator",
+					"timestamp": 1696504924250
+				},
+				{
+					"msg": "Treasure chest to pink snake",
+					"id": "instructor",
+					"timestamp": 1696504945914,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "ah, maybe i'm not clear enough",
+					"id": "navigator",
+					"timestamp": 1696504948783
+				},
+				{
+					"msg": "i'm at the starting point, the treasure and the snake are farther ahead. maybe we should get to the tiger first?",
+					"id": "navigator",
+					"timestamp": 1696504948783
+				},
+				{
+					"msg": "OK. From the treasure map pass the the right of the tiger and go around to the left of the parrot",
+					"id": "instructor",
+					"timestamp": 1696505020218,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "wait a second, i think there's a misunderstanding",
+					"id": "navigator",
+					"timestamp": 1696505024100
+				},
+				{
+					"msg": "i'm at the very start, the treasure is the final point. should i first take the left path to the small island with the tiger?",
+					"id": "navigator",
+					"timestamp": 1696505024100
+				},
+				{
+					"msg": "Treasure map to small island with tiger",
+					"id": "instructor",
+					"timestamp": 1696505048474,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "got it, so from the starting point, i'm heading to the tiger on the small island",
+					"id": "navigator",
+					"timestamp": 1696505050519
+				},
+				{
+					"msg": "where to next?",
+					"id": "navigator",
+					"timestamp": 1696505050519
+				},
+				{
+					"msg": "From the tiger to the parrot",
+					"id": "instructor",
+					"timestamp": 1696505066412,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "okay, the parrot is on a big island to the south-west of the tiger",
+					"id": "navigator",
+					"timestamp": 1696505070775
+				},
+				{
+					"msg": "let's go there. what's next?",
+					"id": "navigator",
+					"timestamp": 1696505070775
+				},
+				{
+					"msg": "Go around the parrot to the left, cross the grea rocks and stop close to the frog",
+					"id": "instructor",
+					"timestamp": 1696505106100,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "the 3 rocks lead me to a new island with a frog",
+					"id": "navigator",
+					"timestamp": 1696505109606
+				},
+				{
+					"msg": "got it, i'm near the frog now. what's next?",
+					"id": "navigator",
+					"timestamp": 1696505109606
+				},
+				{
+					"msg": "From the frog go directly across and stop at the alligators mouth",
+					"id": "instructor",
+					"timestamp": 1696505135303,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "ooh, there's a crocodile to the left of the frog",
+					"id": "navigator",
+					"timestamp": 1696505137967
+				},
+				{
+					"msg": "is that where i'm headed?",
+					"id": "navigator",
+					"timestamp": 1696505137967
+				},
+				{
+					"msg": "Yes crocodile ",
+					"id": "instructor",
+					"timestamp": 1696505147781,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "alright, chilling by mr",
+					"id": "navigator",
+					"timestamp": 1696505149465
+				},
+				{
+					"msg": "crocodile now. where to next?",
+					"id": "navigator",
+					"timestamp": 1696505149465
+				},
+				{
+					"msg": "Crocodile to the rocks",
+					"id": "instructor",
+					"timestamp": 1696505164932,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "that'll take me back to the same big island with the elephant, correct?",
+					"id": "navigator",
+					"timestamp": 1696505166598
+				},
+				{
+					"msg": "Yes, from there make a c turn passing the giraffe and going to the snake",
+					"id": "instructor",
+					"timestamp": 1696505206518,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "let's give it a go, walked past mr",
+					"id": "navigator",
+					"timestamp": 1696505209028
+				},
+				{
+					"msg": "giraffe and now i'm at the snake, what now?",
+					"id": "navigator",
+					"timestamp": 1696505209028
+				},
+				{
+					"msg": "From the snake to the treasure chest",
+					"id": "instructor",
+					"timestamp": 1696505220410,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 23
+					}
+				},
+				{
+					"msg": "woohoo, i've reached the treasure! *finished* thanks for the great directions!",
+					"id": "navigator",
+					"timestamp": 1696505222446
+				}
+			],
+			"map_metadata": {
+				"im_width": 2304,
+				"im_height": 1728,
+				"im_src": "map1_1.jpg",
+				"rows": 18,
+				"cols": 24,
+				"end_cell": {
+					"r": 16,
+					"c": 7
+				},
+				"start_cell": {
+					"r": 2,
+					"c": 23
+				},
+				"map_idx": 0
+			},
+			"user_map_path": [
+				{
+					"r": 2,
+					"c": 23
+				}
+			]
+		},
+		{
+			"survey": [
+				{
+					"answer": 74,
+					"question": "How much did you enjoy the task?"
+				},
+				{
+					"answer": 65,
+					"question": "How difficult was it to communicate with your partner?"
+				},
+				{
+					"answer": 23,
+					"question": "How successful do you think you were at completing the task?"
+				},
+				{
+					"answer": 50,
+					"question": "How difficult was it to understand your partner's instructions?"
+				},
+				{
+					"answer": 50,
+					"question": "How likely is your partner to be a fluent speaker of English?"
+				},
+				{
+					"answer": 50,
+					"question": "How likely is your partner to be a fluent speaker of Spanish?"
+				},
+				{
+					"answer": 50,
+					"question": "How likely do you think it is that your partner is bilingual?"
+				},
+				{
+					"answer": 100,
+					"question": "Please rate your partner according to the following attributes: friendly"
+				},
+				{
+					"answer": 66,
+					"question": "Please rate your partner according to the following attributes: smart"
+				},
+				{
+					"answer": 66,
+					"question": "Please rate your partner according to the following attributes: collaborative"
+				},
+				{
+					"answer": 73,
+					"question": "Please rate your partner according to the following attributes: honest"
+				},
+				{
+					"answer": 78,
+					"question": "Please rate your partner according to the following attributes: funny"
+				},
+				{
+					"answer": 100,
+					"question": "How likely do you think it was that you were talking to a chatbot rather than a human?"
+				},
+				{
+					"answer": 50,
+					"question": "If you were communicating with a chat bot, would you want them to communicate in both English and Spanish?"
+				}
+			],
+			"game_time": 268,
+			"config": {
+				"game_role": "navigator",
+				"map_index": 1,
+				"guid": "87425574-a91e-4147-9a3c-25294a5aeca9"
+			},
+			"chat": [
+				{
+					"id": "instructor",
+					"msg": "hi there! que comience el juego!!",
+					"timestamp": 1696505260297
+				},
+				{
+					"msg": "Yes",
+					"id": "navigator",
+					"timestamp": 1696505275177,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 20
+					}
+				},
+				{
+					"msg": "awesome! alright, start off by moving a bit left, just under the wooden bench, and you'll reach a trail",
+					"id": "instructor",
+					"timestamp": 1696505280713
+				},
+				{
+					"msg": "you'll see a florist stand, but don't go there yet! make a quick u-turn to the left, cross the trail again and head back to our furry friend, the white dog",
+					"id": "instructor",
+					"timestamp": 1696505280713
+				},
+				{
+					"msg": "OK waht is next",
+					"id": "navigator",
+					"timestamp": 1696505322229,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 20
+					}
+				},
+				{
+					"msg": "alright, now let's hop over the branch and head south",
+					"id": "instructor",
+					"timestamp": 1696505325980
+				},
+				{
+					"msg": "keep going until you spot another white dog chilling next to a checkered picnic mat. can you see it?",
+					"id": "instructor",
+					"timestamp": 1696505325980
+				},
+				{
+					"msg": "At the second white dog. Que mas",
+					"id": "navigator",
+					"timestamp": 1696505365013,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 20
+					}
+				},
+				{
+					"msg": "good job! now, walk over the mat, give those berries a little touch, and keep heading to the west",
+					"id": "instructor",
+					"timestamp": 1696505368055
+				},
+				{
+					"msg": "What is next",
+					"id": "navigator",
+					"timestamp": 1696505410936,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 20
+					}
+				},
+				{
+					"msg": "next, we're gonna take a wooden branch north, crossing the river again",
+					"id": "instructor",
+					"timestamp": 1696505416802
+				},
+				{
+					"msg": "got your swimming trunks? just kidding! stick to the branch. let me know when you're across!",
+					"id": "instructor",
+					"timestamp": 1696505416802
+				},
+				{
+					"msg": "The right or the left branch",
+					"id": "navigator",
+					"timestamp": 1696505450405,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 20
+					}
+				},
+				{
+					"msg": "oops, my mistake",
+					"id": "instructor",
+					"timestamp": 1696505454195
+				},
+				{
+					"msg": "take the one on the left. we're heading north! let me know once you've crossed it",
+					"id": "instructor",
+					"timestamp": 1696505454195
+				},
+				{
+					"msg": "OK. I am near a dear. What is next",
+					"id": "navigator",
+					"timestamp": 1696505507656,
+					"curr_nav_cell": {
+						"r": 2,
+						"c": 20
+					}
+				},
+				{
+					"msg": "alright, now we're going to avoid touching the green bush",
+					"id": "instructor",
+					"timestamp": 1696505512647
+				},
+				{
+					"msg": "just circle it from the right and keep going until you reach the florist stand. pretty flowers, huh?",
+					"id": "instructor",
+					"timestamp": 1696505512647
+				}
+			],
+			"map_metadata": {
+				"im_width": 2304,
+				"im_height": 1728,
+				"im_src": "map2_0.jpg",
+				"rows": 18,
+				"cols": 24,
+				"end_cell": {
+					"r": 12,
+					"c": 6
+				},
+				"start_cell": {
+					"r": 2,
+					"c": 20
+				},
+				"map_idx": 1
+			},
+			"user_map_path": [
+				{
+					"r": 2,
+					"c": 20
+				},
+				{
+					"r": 2,
+					"c": 19
+				},
+				{
+					"r": 2,
+					"c": 18
+				},
+				{
+					"r": 2,
+					"c": 17
+				},
+				{
+					"r": 2,
+					"c": 16
+				},
+				{
+					"r": 2,
+					"c": 15
+				},
+				{
+					"r": 2,
+					"c": 14
+				},
+				{
+					"r": 3,
+					"c": 14
+				},
+				{
+					"r": 4,
+					"c": 14
+				},
+				{
+					"r": 5,
+					"c": 14
+				},
+				{
+					"r": 5,
+					"c": 15
+				},
+				{
+					"r": 5,
+					"c": 16
+				},
+				{
+					"r": 4,
+					"c": 16
+				},
+				{
+					"r": 3,
+					"c": 16
+				},
+				{
+					"r": 3,
+					"c": 17
+				},
+				{
+					"r": 3,
+					"c": 18
+				},
+				{
+					"r": 3,
+					"c": 19
+				},
+				{
+					"r": 3,
+					"c": 20
+				},
+				{
+					"r": 3,
+					"c": 19
+				},
+				{
+					"r": 4,
+					"c": 19
+				},
+				{
+					"r": 4,
+					"c": 20
+				},
+				{
+					"r": 5,
+					"c": 20
+				},
+				{
+					"r": 6,
+					"c": 20
+				},
+				{
+					"r": 7,
+					"c": 20
+				},
+				{
+					"r": 8,
+					"c": 20
+				},
+				{
+					"r": 9,
+					"c": 20
+				},
+				{
+					"r": 10,
+					"c": 20
+				},
+				{
+					"r": 11,
+					"c": 20
+				},
+				{
+					"r": 11,
+					"c": 21
+				},
+				{
+					"r": 11,
+					"c": 22
+				},
+				{
+					"r": 12,
+					"c": 22
+				},
+				{
+					"r": 13,
+					"c": 22
+				},
+				{
+					"r": 13,
+					"c": 23
+				},
+				{
+					"r": 14,
+					"c": 23
+				},
+				{
+					"r": 15,
+					"c": 23
+				},
+				{
+					"r": 15,
+					"c": 22
+				},
+				{
+					"r": 15,
+					"c": 21
+				},
+				{
+					"r": 15,
+					"c": 20
+				},
+				{
+					"r": 15,
+					"c": 19
+				},
+				{
+					"r": 15,
+					"c": 18
+				},
+				{
+					"r": 15,
+					"c": 17
+				},
+				{
+					"r": 15,
+					"c": 16
+				},
+				{
+					"r": 15,
+					"c": 15
+				},
+				{
+					"r": 15,
+					"c": 14
+				},
+				{
+					"r": 16,
+					"c": 14
+				},
+				{
+					"r": 16,
+					"c": 13
+				},
+				{
+					"r": 16,
+					"c": 12
+				},
+				{
+					"r": 17,
+					"c": 12
+				},
+				{
+					"r": 17,
+					"c": 11
+				},
+				{
+					"r": 17,
+					"c": 10
+				},
+				{
+					"r": 17,
+					"c": 9
+				},
+				{
+					"r": 16,
+					"c": 9
+				},
+				{
+					"r": 16,
+					"c": 8
+				},
+				{
+					"r": 16,
+					"c": 7
+				},
+				{
+					"r": 16,
+					"c": 6
+				},
+				{
+					"r": 16,
+					"c": 5
+				},
+				{
+					"r": 15,
+					"c": 5
+				},
+				{
+					"r": 14,
+					"c": 5
+				},
+				{
+					"r": 13,
+					"c": 5
+				}
+			]
+		},
+		{
+			"survey": [
+				{
+					"answer": 90,
+					"question": "How much did you enjoy the task?"
+				},
+				{
+					"answer": 23,
+					"question": "How difficult was it to communicate with your partner?"
+				},
+				{
+					"answer": 100,
+					"question": "How successful do you think you were at completing the task?"
+				},
+				{
+					"answer": 95,
+					"question": "How difficult was it to understand your partner's instructions?"
+				},
+				{
+					"answer": 100,
+					"question": "How likely is your partner to be a fluent speaker of English?"
+				},
+				{
+					"answer": 50,
+					"question": "How likely is your partner to be a fluent speaker of Spanish?"
+				},
+				{
+					"answer": 50,
+					"question": "How likely do you think it is that your partner is bilingual?"
+				},
+				{
+					"answer": 100,
+					"question": "Please rate your partner according to the following attributes: friendly"
+				},
+				{
+					"answer": 87,
+					"question": "Please rate your partner according to the following attributes: smart"
+				},
+				{
+					"answer": 79,
+					"question": "Please rate your partner according to the following attributes: collaborative"
+				},
+				{
+					"answer": 100,
+					"question": "Please rate your partner according to the following attributes: honest"
+				},
+				{
+					"answer": 26,
+					"question": "Please rate your partner according to the following attributes: funny"
+				},
+				{
+					"answer": 100,
+					"question": "How likely do you think it was that you were talking to a chatbot rather than a human?"
+				},
+				{
+					"answer": 50,
+					"question": "If you were communicating with a chat bot, would you want them to communicate in both English and Spanish?"
+				}
+			],
+			"game_time": 211,
+			"config": {
+				"game_role": "instructor",
+				"map_index": 2,
+				"guid": "4ecb8a24-9387-4df1-bb9e-d165881a302e"
+			},
+			"chat": [
+				{
+					"id": "navigator",
+					"msg": "hola, q tal? ready to play?",
+					"timestamp": 1696505576853
+				},
+				{
+					"msg": "From the blue tent, trave to the left of the dog, turning right and going in between the dog and the fire. Then stop",
+					"id": "instructor",
+					"timestamp": 1696505658223,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 9
+					}
+				},
+				{
+					"msg": "got it! okay, i'm now between the dog and the fire",
+					"id": "navigator",
+					"timestamp": 1696505660334
+				},
+				{
+					"msg": "where to next?",
+					"id": "navigator",
+					"timestamp": 1696505660334
+				},
+				{
+					"msg": "Turn right and go between the first and the mushrooms. Stay on the dirt road until you get to the telescope",
+					"id": "instructor",
+					"timestamp": 1696505712575,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 9
+					}
+				},
+				{
+					"msg": "alright, i'm at the telescope now",
+					"id": "navigator",
+					"timestamp": 1696505715723
+				},
+				{
+					"msg": "what's the next move?",
+					"id": "navigator",
+					"timestamp": 1696505715723
+				},
+				{
+					"msg": "From the telescope  cut through the left side around the bush back to the dirt road",
+					"id": "instructor",
+					"timestamp": 1696505765856,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 9
+					}
+				},
+				{
+					"msg": "okay, i'm back onto the dirt road now",
+					"id": "navigator",
+					"timestamp": 1696505767497
+				},
+				{
+					"msg": "what's up?",
+					"id": "navigator",
+					"timestamp": 1696505767497
+				},
+				{
+					"msg": "Travel west and cut through the rocks to the cabin",
+					"id": "instructor",
+					"timestamp": 1696505795873,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 9
+					}
+				},
+				{
+					"msg": "i'm at the wooden house now! *finished*",
+					"id": "navigator",
+					"timestamp": 1696505797928
+				}
+			],
+			"map_metadata": {
+				"im_width": 2304,
+				"im_height": 1728,
+				"im_src": "map3_1.jpg",
+				"rows": 18,
+				"cols": 24,
+				"end_cell": {
+					"r": 13,
+					"c": 9
+				},
+				"start_cell": {
+					"r": 3,
+					"c": 9
+				},
+				"map_idx": 2
+			},
+			"user_map_path": [
+				{
+					"r": 3,
+					"c": 9
+				}
+			]
+		},
+		{
+			"survey": [
+				{
+					"answer": 80,
+					"question": "How much did you enjoy the task?"
+				},
+				{
+					"answer": 50,
+					"question": "How difficult was it to communicate with your partner?"
+				},
+				{
+					"answer": 61,
+					"question": "How successful do you think you were at completing the task?"
+				},
+				{
+					"answer": 50,
+					"question": "How difficult was it to understand your partner's instructions?"
+				},
+				{
+					"answer": 100,
+					"question": "How likely is your partner to be a fluent speaker of English?"
+				},
+				{
+					"answer": 50,
+					"question": "How likely is your partner to be a fluent speaker of Spanish?"
+				},
+				{
+					"answer": 50,
+					"question": "How likely do you think it is that your partner is bilingual?"
+				},
+				{
+					"answer": 100,
+					"question": "Please rate your partner according to the following attributes: friendly"
+				},
+				{
+					"answer": 100,
+					"question": "Please rate your partner according to the following attributes: smart"
+				},
+				{
+					"answer": 84,
+					"question": "Please rate your partner according to the following attributes: collaborative"
+				},
+				{
+					"answer": 75,
+					"question": "Please rate your partner according to the following attributes: honest"
+				},
+				{
+					"answer": 23,
+					"question": "Please rate your partner according to the following attributes: funny"
+				},
+				{
+					"answer": 100,
+					"question": "How likely do you think it was that you were talking to a chatbot rather than a human?"
+				},
+				{
+					"answer": 50,
+					"question": "If you were communicating with a chat bot, would you want them to communicate in both English and Spanish?"
+				}
+			],
+			"game_time": 255,
+			"config": {
+				"game_role": "navigator",
+				"map_index": 3,
+				"guid": "47e2779a-420d-4920-b7e7-79f9ffb4ddf4"
+			},
+			"chat": [
+				{
+					"id": "instructor",
+					"msg": "hola, you ready?",
+					"timestamp": 1696505840251
+				},
+				{
+					"msg": "Yes",
+					"id": "navigator",
+					"timestamp": 1696505851060,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 23
+					}
+				},
+				{
+					"msg": "awesome! let's begin. head southwest under the first palm tree",
+					"id": "instructor",
+					"timestamp": 1696505854971
+				},
+				{
+					"msg": "make a right at the second palm, and then a sharp left before the third one. head south after that. easy, right?",
+					"id": "instructor",
+					"timestamp": 1696505854971
+				},
+				{
+					"msg": "OK. In front of a dog. Whats next",
+					"id": "navigator",
+					"timestamp": 1696505893198,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 23
+					}
+				},
+				{
+					"msg": "super! now, move to the left of that cute brown puppy, then veer slightly to the left, and right again heading south",
+					"id": "instructor",
+					"timestamp": 1696505896925
+				},
+				{
+					"msg": "you're doing great!",
+					"id": "instructor",
+					"timestamp": 1696505896925
+				},
+				{
+					"msg": "In front of a crab",
+					"id": "navigator",
+					"timestamp": 1696505937152,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 23
+					}
+				},
+				{
+					"msg": "oh, that's a big red crab! turn right here, and go along the big rock",
+					"id": "instructor",
+					"timestamp": 1696505940216
+				},
+				{
+					"msg": "keep moving west in the water. seems fun, doesn't it?",
+					"id": "instructor",
+					"timestamp": 1696505940216
+				},
+				{
+					"msg": "To the right of the shark. What is next",
+					"id": "navigator",
+					"timestamp": 1696505967007,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 23
+					}
+				},
+				{
+					"msg": "you're braver than me, mate! now take a sharp right turn, and head towards the land",
+					"id": "instructor",
+					"timestamp": 1696505970780
+				},
+				{
+					"msg": "once you're on dry land, go between the medium-sized rock and the colorful ball, and then continue north",
+					"id": "instructor",
+					"timestamp": 1696505970780
+				},
+				{
+					"msg": "What is next",
+					"id": "navigator",
+					"timestamp": 1696506004065,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 23
+					}
+				},
+				{
+					"msg": "great job! now, slightly veer to the left, and move northwest",
+					"id": "instructor",
+					"timestamp": 1696506010617
+				},
+				{
+					"msg": "you'll pass between a red tent and a big speaker. rock on!",
+					"id": "instructor",
+					"timestamp": 1696506010617
+				},
+				{
+					"msg": "Did it. ",
+					"id": "navigator",
+					"timestamp": 1696506031038,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 23
+					}
+				},
+				{
+					"msg": "fantastic! now, just circle around the tent in a nice arc, then head south",
+					"id": "instructor",
+					"timestamp": 1696506033277
+				},
+				{
+					"msg": "Next",
+					"id": "navigator",
+					"timestamp": 1696506065521,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 23
+					}
+				},
+				{
+					"msg": "right before you hit the water, take a sharp right and move west below the red kayak",
+					"id": "instructor",
+					"timestamp": 1696506069082
+				},
+				{
+					"msg": "progress!",
+					"id": "instructor",
+					"timestamp": 1696506069082
+				},
+				{
+					"msg": "Ok",
+					"id": "navigator",
+					"timestamp": 1696506090390,
+					"curr_nav_cell": {
+						"r": 3,
+						"c": 23
+					}
+				},
+				{
+					"msg": "awesome! now, turn right up north, move along the kayak until you reach a little green bush",
+					"id": "instructor",
+					"timestamp": 1696506093148
+				},
+				{
+					"msg": "you've made it! good job!",
+					"id": "instructor",
+					"timestamp": 1696506093148
+				}
+			],
+			"map_metadata": {
+				"im_width": 2304,
+				"im_height": 1728,
+				"im_src": "map4_0.jpg",
+				"rows": 18,
+				"cols": 24,
+				"end_cell": {
+					"r": 7,
+					"c": 0
+				},
+				"start_cell": {
+					"r": 3,
+					"c": 23
+				},
+				"map_idx": 3
+			},
+			"user_map_path": [
+				{
+					"r": 3,
+					"c": 23
+				},
+				{
+					"r": 3,
+					"c": 22
+				},
+				{
+					"r": 4,
+					"c": 22
+				},
+				{
+					"r": 5,
+					"c": 22
+				},
+				{
+					"r": 6,
+					"c": 22
+				},
+				{
+					"r": 6,
+					"c": 21
+				},
+				{
+					"r": 6,
+					"c": 20
+				},
+				{
+					"r": 6,
+					"c": 19
+				},
+				{
+					"r": 6,
+					"c": 18
+				},
+				{
+					"r": 7,
+					"c": 18
+				},
+				{
+					"r": 8,
+					"c": 18
+				},
+				{
+					"r": 9,
+					"c": 18
+				},
+				{
+					"r": 9,
+					"c": 19
+				},
+				{
+					"r": 9,
+					"c": 20
+				},
+				{
+					"r": 10,
+					"c": 20
+				},
+				{
+					"r": 10,
+					"c": 21
+				},
+				{
+					"r": 11,
+					"c": 21
+				},
+				{
+					"r": 11,
+					"c": 22
+				},
+				{
+					"r": 11,
+					"c": 21
+				},
+				{
+					"r": 12,
+					"c": 21
+				},
+				{
+					"r": 13,
+					"c": 21
+				},
+				{
+					"r": 14,
+					"c": 21
+				},
+				{
+					"r": 14,
+					"c": 20
+				},
+				{
+					"r": 14,
+					"c": 19
+				},
+				{
+					"r": 15,
+					"c": 19
+				},
+				{
+					"r": 15,
+					"c": 18
+				},
+				{
+					"r": 15,
+					"c": 17
+				},
+				{
+					"r": 15,
+					"c": 16
+				},
+				{
+					"r": 15,
+					"c": 15
+				},
+				{
+					"r": 15,
+					"c": 14
+				},
+				{
+					"r": 14,
+					"c": 14
+				},
+				{
+					"r": 14,
+					"c": 13
+				},
+				{
+					"r": 14,
+					"c": 12
+				},
+				{
+					"r": 15,
+					"c": 12
+				},
+				{
+					"r": 15,
+					"c": 11
+				},
+				{
+					"r": 15,
+					"c": 10
+				},
+				{
+					"r": 14,
+					"c": 10
+				},
+				{
+					"r": 13,
+					"c": 10
+				},
+				{
+					"r": 12,
+					"c": 10
+				},
+				{
+					"r": 12,
+					"c": 11
+				},
+				{
+					"r": 11,
+					"c": 11
+				},
+				{
+					"r": 10,
+					"c": 11
+				},
+				{
+					"r": 10,
+					"c": 12
+				},
+				{
+					"r": 9,
+					"c": 12
+				},
+				{
+					"r": 8,
+					"c": 12
+				},
+				{
+					"r": 7,
+					"c": 12
+				},
+				{
+					"r": 7,
+					"c": 11
+				},
+				{
+					"r": 7,
+					"c": 10
+				},
+				{
+					"r": 6,
+					"c": 10
+				},
+				{
+					"r": 5,
+					"c": 10
+				},
+				{
+					"r": 4,
+					"c": 10
+				},
+				{
+					"r": 3,
+					"c": 10
+				},
+				{
+					"r": 2,
+					"c": 10
+				},
+				{
+					"r": 2,
+					"c": 9
+				},
+				{
+					"r": 2,
+					"c": 8
+				},
+				{
+					"r": 2,
+					"c": 7
+				},
+				{
+					"r": 2,
+					"c": 6
+				},
+				{
+					"r": 2,
+					"c": 5
+				},
+				{
+					"r": 3,
+					"c": 5
+				},
+				{
+					"r": 4,
+					"c": 5
+				},
+				{
+					"r": 5,
+					"c": 5
+				},
+				{
+					"r": 6,
+					"c": 5
+				},
+				{
+					"r": 7,
+					"c": 5
+				},
+				{
+					"r": 8,
+					"c": 5
+				},
+				{
+					"r": 9,
+					"c": 5
+				},
+				{
+					"r": 10,
+					"c": 5
+				},
+				{
+					"r": 11,
+					"c": 5
+				},
+				{
+					"r": 11,
+					"c": 4
+				},
+				{
+					"r": 11,
+					"c": 3
+				},
+				{
+					"r": 11,
+					"c": 2
+				},
+				{
+					"r": 11,
+					"c": 1
+				},
+				{
+					"r": 10,
+					"c": 1
+				},
+				{
+					"r": 9,
+					"c": 1
+				},
+				{
+					"r": 8,
+					"c": 1
+				}
+			]
+		}
+	],
+	"general_survey": [
+		{
+			"answer": "34",
+			"question": "Age:"
+		},
+		{
+			"answer": "male",
+			"question": "Gender:"
+		},
+		{
+			"answer": "New York City",
+			"question": "Place of birth:"
+		},
+		{
+			"answer": "New York City",
+			"question": "Place of current residence:"
+		},
+		{
+			"answer": "trade school",
+			"question": "Highest level of education received:"
+		},
+		{
+			"answer": "English",
+			"question": "Native language(s):"
+		},
+		{
+			"answer": "Spanish",
+			"question": "Do you speak any other languages?"
+		},
+		{
+			"answer": "English, spanish",
+			"question": "What languages are currently spoken in your home?"
+		},
+		{
+			"answer": "No",
+			"question": "Have you spent extended time (e.g., more than 6 months) living in another country?"
+		},
+		{
+			"answer": "",
+			"question": "Enter your native language, or the language you are providing answers for, here:"
+		},
+		{
+			"answer": 96,
+			"question": "How would you rate your fluency in your native language, for each of these categories: Reading"
+		},
+		{
+			"answer": 86,
+			"question": "How would you rate your fluency in your native language, for each of these categories: Writing"
+		},
+		{
+			"answer": 100,
+			"question": "How would you rate your fluency in your native language, for each of these categories: Speaking"
+		},
+		{
+			"answer": 100,
+			"question": "How would you rate your fluency in your native language, for each of these categories: Listening"
+		},
+		{
+			"answer": 100,
+			"question": "Please rate how likely you are to use your first language in the following contexts: At work"
+		},
+		{
+			"answer": 100,
+			"question": "Please rate how likely you are to use your first language in the following contexts: At home"
+		},
+		{
+			"answer": 100,
+			"question": "Please rate how likely you are to use your first language in the following contexts: Interacting with friends"
+		},
+		{
+			"answer": 100,
+			"question": "Please rate how likely you are to use your first language in the following contexts: Interacting with family"
+		},
+		{
+			"answer": 100,
+			"question": "Please rate how likely you are to use your first language in the following contexts: Entertainment (TV series, music, etc.)"
+		},
+		{
+			"answer": "",
+			"question": "Enter your most proficient second language here:"
+		},
+		{
+			"answer": 74,
+			"question": "How would you rate your fluency in your second language, for each of these categories: Reading"
+		},
+		{
+			"answer": 65,
+			"question": "How would you rate your fluency in your second language, for each of these categories: Writing"
+		},
+		{
+			"answer": 72,
+			"question": "How would you rate your fluency in your second language, for each of these categories: Speaking"
+		},
+		{
+			"answer": 78,
+			"question": "How would you rate your fluency in your second language, for each of these categories: Listening"
+		},
+		{
+			"answer": "5",
+			"question": "Approximately what age did you begin learning your second language?"
+		},
+		{
+			"answer": 100,
+			"question": "Please rate how likely you are to use your second language in the following contexts: At work"
+		},
+		{
+			"answer": 100,
+			"question": "Please rate how likely you are to use your second language in the following contexts: At home"
+		},
+		{
+			"answer": 100,
+			"question": "Please rate how likely you are to use your second language in the following contexts: Interacting with friends"
+		},
+		{
+			"answer": 100,
+			"question": "Please rate how likely you are to use your second language in the following contexts: Interacting with family"
+		},
+		{
+			"answer": 100,
+			"question": "Please rate how likely you are to use your second language in the following contexts: Entertainment (TV series, music, etc.)"
+		},
+		{
+			"answer": "Puerto Rico ",
+			"question": "Have you ever lived in a home environment or country where your second language was spoken? If so, please explain briefly:"
+		},
+		{
+			"answer": 100,
+			"question": "On a day-to-day basis, how likely are you to have a conversation using both your first and second languages?"
+		},
+		{
+			"answer": 100,
+			"question": "How likely would you be to mix languages in the following contexts? At work"
+		},
+		{
+			"answer": 100,
+			"question": "How likely would you be to mix languages in the following contexts? At home"
+		},
+		{
+			"answer": 100,
+			"question": "How likely would you be to mix languages in the following contexts? Interacting with friends"
+		},
+		{
+			"answer": 100,
+			"question": "How likely would you be to mix languages in the following contexts? Interacting with family"
+		},
+		{
+			"answer": 50,
+			"question": "How likely would you be to mix languages in the following contexts? Using social media"
+		},
+		{
+			"answer": 84,
+			"question": "When you switch languages, how often is it for the following reasons? To accommodate people who don't share the same language or language fluency."
+		},
+		{
+			"answer": 76,
+			"question": "When you switch languages, how often is it for the following reasons? For social reasons; one language feels more appropriate."
+		},
+		{
+			"answer": 50,
+			"question": "When you switch languages, how often is it for the following reasons? I can't think of a word in the current language."
+		},
+		{
+			"answer": 82,
+			"question": "When you switch languages, how often is it for the following reasons? The word in the other language just fits better."
+		},
+		{
+			"answer": 35,
+			"question": "When you switch languages, how often is it for the following reasons? It's an accident, or I don't realize I'm doing it."
+		},
+		{
+			"answer": 100,
+			"question": "When you switch languages, how often is it for the following reasons? I'm more comfortable discussing the topic in the other language."
+		},
+		{
+			"answer": 83,
+			"question": "Do you enjoy mixing languages in conversation?"
+		},
+		{
+			"answer": "I always find it interesting how other mix languages to try and best express themselves",
+			"question": "What do you think when others mix languages in conversation? Please explain:"
+		},
+		{
+			"answer": "No",
+			"question": "Any final comments about your language background?"
+		}
+	],
+	"clinet_version": "2.3.1_p",
+	"prolific": {
+		"prolific_id": "63e52f8ab3688f45f842114c",
+		"study_id": "1",
+		"seassion_id": "1"
+	},
+	"server_version": "2.3.1_p",
+	"cs_strategy": "english only"
+}

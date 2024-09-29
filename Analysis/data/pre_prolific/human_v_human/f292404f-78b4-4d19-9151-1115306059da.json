@@ -1,0 +1,468 @@
+{
+	"guid": "f292404f-78b4-4d19-9151-1115306059da",
+	"game_config": {
+		"game_mode": "human"
+	},
+	"chat": [
+		{
+			"id": "instructor",
+			"msg": "hey",
+			"timestamp": 1668846609079
+		},
+		{
+			"msg": "hi",
+			"id": "navigator",
+			"timestamp": 1668846611972,
+			"curr_nav_cell": {
+				"r": 2,
+				"c": 23
+			}
+		},
+		{
+			"id": "instructor",
+			"msg": "einav?",
+			"timestamp": 1668846616211
+		},
+		{
+			"msg": "yes",
+			"id": "navigator",
+			"timestamp": 1668846618507,
+			"curr_nav_cell": {
+				"r": 2,
+				"c": 23
+			}
+		},
+		{
+			"id": "instructor",
+			"msg": "cool lets start?",
+			"timestamp": 1668846621875
+		},
+		{
+			"msg": "yep",
+			"id": "navigator",
+			"timestamp": 1668846625169,
+			"curr_nav_cell": {
+				"r": 2,
+				"c": 23
+			}
+		},
+		{
+			"msg": "where should I go?",
+			"id": "navigator",
+			"timestamp": 1668846630513,
+			"curr_nav_cell": {
+				"r": 2,
+				"c": 23
+			}
+		},
+		{
+			"id": "instructor",
+			"msg": "ok what do you see in front of you?",
+			"timestamp": 1668846632412
+		},
+		{
+			"msg": "the tiger is at my left",
+			"id": "navigator",
+			"timestamp": 1668846646608,
+			"curr_nav_cell": {
+				"r": 2,
+				"c": 23
+			}
+		},
+		{
+			"id": "instructor",
+			"msg": "fría, go over the little branch below it, advance towrads the parrot",
+			"timestamp": 1668846673259
+		},
+		{
+			"msg": "ok I am on the parrot",
+			"id": "navigator",
+			"timestamp": 1668846717804,
+			"curr_nav_cell": {
+				"r": 5,
+				"c": 11
+			}
+		},
+		{
+			"id": "instructor",
+			"msg": "when you reached the parrot, you should go over it, sligthly above it, and go down between it and the elephant",
+			"timestamp": 1668846735436
+		},
+		{
+			"id": "instructor",
+			"msg": "and then head east to the gray rocks",
+			"timestamp": 1668846743523
+		},
+		{
+			"msg": "ok",
+			"id": "navigator",
+			"timestamp": 1668846762180,
+			"curr_nav_cell": {
+				"r": 8,
+				"c": 14
+			}
+		},
+		{
+			"msg": "done",
+			"id": "navigator",
+			"timestamp": 1668846766488,
+			"curr_nav_cell": {
+				"r": 8,
+				"c": 14
+			}
+		},
+		{
+			"id": "instructor",
+			"msg": "where are you now?",
+			"timestamp": 1668846769746
+		},
+		{
+			"msg": "at the grey rocks",
+			"id": "navigator",
+			"timestamp": 1668846776845,
+			"curr_nav_cell": {
+				"r": 8,
+				"c": 14
+			}
+		},
+		{
+			"id": "instructor",
+			"msg": "vamos, go to the frog",
+			"timestamp": 1668846785821
+		},
+		{
+			"msg": "dale",
+			"id": "navigator",
+			"timestamp": 1668846795701,
+			"curr_nav_cell": {
+				"r": 11,
+				"c": 19
+			}
+		},
+		{
+			"msg": "estoy at the frogs",
+			"id": "navigator",
+			"timestamp": 1668846805231,
+			"curr_nav_cell": {
+				"r": 11,
+				"c": 19
+			}
+		},
+		{
+			"id": "instructor",
+			"msg": "when you reached the frog, do a u turn back, and head to the crocodile",
+			"timestamp": 1668846810706
+		},
+		{
+			"id": "instructor",
+			"msg": "awsome",
+			"timestamp": 1668846816851
+		},
+		{
+			"msg": "estoy on the crocodile, donde now?",
+			"id": "navigator",
+			"timestamp": 1668846840431,
+			"curr_nav_cell": {
+				"r": 12,
+				"c": 13
+			}
+		},
+		{
+			"id": "instructor",
+			"msg": "now at the crocodile, you simply walk on tip of it to the left",
+			"timestamp": 1668846846840
+		},
+		{
+			"id": "instructor",
+			"msg": "on top*",
+			"timestamp": 1668846852588
+		}
+	],
+	"navigator_metadata": {
+		"name": "",
+		"age": "",
+		"gender": "Male"
+	},
+	"navigator_survey": {
+		"free_text": ""
+	},
+	"user_map_path": [
+		{
+			"r": 2,
+			"c": 23
+		},
+		{
+			"r": 2,
+			"c": 22
+		},
+		{
+			"r": 2,
+			"c": 21
+		},
+		{
+			"r": 2,
+			"c": 20
+		},
+		{
+			"r": 2,
+			"c": 19
+		},
+		{
+			"r": 2,
+			"c": 18
+		},
+		{
+			"r": 2,
+			"c": 17
+		},
+		{
+			"r": 3,
+			"c": 17
+		},
+		{
+			"r": 4,
+			"c": 17
+		},
+		{
+			"r": 4,
+			"c": 16
+		},
+		{
+			"r": 4,
+			"c": 15
+		},
+		{
+			"r": 4,
+			"c": 14
+		},
+		{
+			"r": 4,
+			"c": 13
+		},
+		{
+			"r": 4,
+			"c": 12
+		},
+		{
+			"r": 5,
+			"c": 12
+		},
+		{
+			"r": 5,
+			"c": 11
+		},
+		{
+			"r": 5,
+			"c": 10
+		},
+		{
+			"r": 5,
+			"c": 9
+		},
+		{
+			"r": 6,
+			"c": 9
+		},
+		{
+			"r": 7,
+			"c": 9
+		},
+		{
+			"r": 8,
+			"c": 9
+		},
+		{
+			"r": 8,
+			"c": 10
+		},
+		{
+			"r": 8,
+			"c": 11
+		},
+		{
+			"r": 8,
+			"c": 12
+		},
+		{
+			"r": 8,
+			"c": 13
+		},
+		{
+			"r": 8,
+			"c": 14
+		},
+		{
+			"r": 8,
+			"c": 15
+		},
+		{
+			"r": 8,
+			"c": 16
+		},
+		{
+			"r": 8,
+			"c": 17
+		},
+		{
+			"r": 8,
+			"c": 18
+		},
+		{
+			"r": 8,
+			"c": 19
+		},
+		{
+			"r": 9,
+			"c": 19
+		},
+		{
+			"r": 10,
+			"c": 19
+		},
+		{
+			"r": 11,
+			"c": 19
+		},
+		{
+			"r": 12,
+			"c": 19
+		},
+		{
+			"r": 11,
+			"c": 19
+		},
+		{
+			"r": 12,
+			"c": 19
+		},
+		{
+			"r": 11,
+			"c": 19
+		},
+		{
+			"r": 12,
+			"c": 19
+		},
+		{
+			"r": 12,
+			"c": 20
+		},
+		{
+			"r": 12,
+			"c": 21
+		},
+		{
+			"r": 13,
+			"c": 21
+		},
+		{
+			"r": 14,
+			"c": 21
+		},
+		{
+			"r": 14,
+			"c": 20
+		},
+		{
+			"r": 14,
+			"c": 19
+		},
+		{
+			"r": 14,
+			"c": 18
+		},
+		{
+			"r": 14,
+			"c": 17
+		},
+		{
+			"r": 14,
+			"c": 16
+		},
+		{
+			"r": 14,
+			"c": 15
+		},
+		{
+			"r": 14,
+			"c": 14
+		},
+		{
+			"r": 13,
+			"c": 14
+		},
+		{
+			"r": 12,
+			"c": 14
+		},
+		{
+			"r": 12,
+			"c": 13
+		},
+		{
+			"r": 11,
+			"c": 13
+		},
+		{
+			"r": 11,
+			"c": 12
+		},
+		{
+			"r": 11,
+			"c": 11
+		},
+		{
+			"r": 11,
+			"c": 10
+		},
+		{
+			"r": 11,
+			"c": 9
+		},
+		{
+			"r": 11,
+			"c": 8
+		},
+		{
+			"r": 12,
+			"c": 8
+		},
+		{
+			"r": 13,
+			"c": 8
+		},
+		{
+			"r": 14,
+			"c": 8
+		},
+		{
+			"r": 15,
+			"c": 8
+		}
+	],
+	"instructor_metadata": {
+		"name": "dean",
+		"age": "",
+		"gender": "Male"
+	},
+	"instructor_survey": {
+		"free_text": "dean+einav"
+	},
+	"clinet_version": "1.0.11",
+	"map_metadata": {
+		"im_width": 2304,
+		"im_height": 1728,
+		"im_src": "map1_1.jpg",
+		"rows": 18,
+		"cols": 24,
+		"end_cell": {
+			"r": 16,
+			"c": 7
+		},
+		"start_cell": {
+			"r": 2,
+			"c": 23
+		}
+	},
+	"server_version": "1.0.12"
+}
