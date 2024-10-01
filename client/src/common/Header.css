@@ -1,0 +1,26 @@
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+}
+
+.icons {
+    display: flex;
+}
+
+.clg_logo {
+    width: 8em;
+}
+
+.haifa_logo {
+    width: 5.2em;
+}
+
+.edu_logo {
+    width: 4em;
+}
+
+.pit_logo {
+    width: 4em;
+}

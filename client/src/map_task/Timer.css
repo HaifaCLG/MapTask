@@ -1,0 +1,21 @@
+
+.timer_wrapper {
+    text-align: 'center';
+    margin-bottom: 8px;
+}
+
+.timer_digit {
+    font-size: 36px;
+    background-color: #484644;
+    color: white;
+    border-radius: 5px;
+    margin-right: 2px;
+    font-family: Arial;
+    padding: 4px;
+}
+
+.timer_space {
+    font-size: 36px;
+    color: black;
+    margin-right: 2px;
+}

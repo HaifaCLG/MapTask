@@ -1,0 +1,78 @@
+.map_container {
+    border-right: 1px solid #efefef;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url('./maps/map1_0.jpg');
+}
+
+
+#map0_nav.map_container {
+    background-image: url('./maps/map1_0.jpg');
+}
+
+#map0_ins.map_container {
+    background-image: url('./maps/map1_1.jpg');
+}
+
+#map1_nav.map_container {
+    background-image: url('./maps/map2_0.jpg');
+}
+
+#map1_ins.map_container {
+    background-image: url('./maps/map2_1.jpg');
+}
+
+#map2_nav.map_container {
+    background-image: url('./maps/map3_0.jpg');
+}
+
+#map2_ins.map_container {
+    background-image: url('./maps/map3_1.jpg');
+}
+
+#map3_nav.map_container {
+    background-image: url('./maps/map4_0.jpg');
+}
+
+#map3_ins.map_container {
+    background-image: url('./maps/map4_1.jpg');
+}
+
+.map_cell {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+.map_player {
+    position: absolute;
+    border-radius: 100%;
+    background: none;
+    border: none;
+    background-color: rgba(255, 255, 0);
+    cursor: auto;
+}
+
+.map_nav_buttons {
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map_nav_btn_row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#middle_row.map_nav_btn_row {
+    justify-content: space-between;
+}
