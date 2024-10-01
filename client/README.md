@@ -1,4 +1,5 @@
-﻿This is a React client-side application, implementing the client side of the Map-Task.
+﻿This is a React client-side application implementing the Map-Task game, including chat interface and map navigation.
+
 It requires node/npm to be installed -  https://nodejs.org/en/download/.
 
 On first installation run:
@@ -7,7 +8,7 @@ npm install --global yarn
 yarn install
 ```
 
-Then, to run locally, run:
+Then, to run locally:
 ```
 yarn start
 ```
