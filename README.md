@@ -3,7 +3,7 @@
 This repository contains the implementation and analysis code for the experiments described in our paper:
 
 > **Strategies of Code-switching in Human-Machine Dialogs**
-> [arXiv:2508.07325](https://arxiv.org/abs/2508.07325)
+> [Bilingualism: Language and Cognition (2025)](https://doi.org/10.1017/S1366728925100436)
 
 ## Overview
 
@@ -17,19 +17,24 @@ In addition, the repository includes an **`analysis/`** directory containing scr
 
 ## Paper Link
 
-📄 [Read the full paper on arXiv](https://arxiv.org/abs/2508.07325)
+📄 **Published Paper:** Geckt D, Fricke M, Wintner S. [Strategies of code-switching in human–machine dialogs](https://www.cambridge.org/core/journals/bilingualism-language-and-cognition/article/strategies-of-codeswitching-in-humanmachine-dialogs/A20A85FB5A2F63D4011582C11C6B67E9?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark). *Bilingualism: Language and Cognition*. Published online 2025:1-15. doi:[10.1017/S1366728925100436](https://doi.org/10.1017/S1366728925100436)
+If you use this code in your work, please cite our paper:
+
+📄 [Read the preprint on arXiv](https://arxiv.org/abs/2508.07325)
+
 
 If you use this code in your work, please cite our paper:
 
 ```bibtex
-@misc{geckt2025strategiescodeswitchinghumanmachinedialogs,
-      title={Strategies of Code-switching in Human-Machine Dialogs}, 
-      author={Dean Geckt and Melinda Fricke and Shuly Wintner},
+@article{geckt2025strategiescodeswitchinghumanmachinedialogs,
+      title={Strategies of code-switching in human-machine dialogs}, 
+      author={Geckt, Dean and Fricke, Melinda and Wintner, Shuly},
+      journal={Bilingualism: Language and Cognition},
+      pages={1--15},
       year={2025},
-      eprint={2508.07325},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.07325}, 
+      publisher={Cambridge University Press},
+      doi={10.1017/S1366728925100436},
+      url={https://doi.org/10.1017/S1366728925100436}
 }
 ```
 
